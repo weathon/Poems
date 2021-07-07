@@ -194,7 +194,7 @@ class OneStep(tf.keras.Model):
     return predicted_chars, states
 
 one_step_model = OneStep(model, chars_from_ids, ids_from_chars)
-next_char = tf.constant(['I'])
+next_char = tf.constant(['Love'])
 result = [next_char]
 
 states = None
